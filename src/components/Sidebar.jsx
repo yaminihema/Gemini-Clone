@@ -6,10 +6,11 @@ import { BsQuestionLg } from "react-icons/bs";
 import { AiOutlineHistory } from "react-icons/ai";
 import { useContext } from 'react';
 import { Context } from '../context/Context';
+
 const Sidebar = () => {
     const [extended,setExtended]=useState(false)
     const {onSent,prevPrompts,setRecentPrompt,newChat} = useContext(Context)
-console.log(prevPrompts)
+
     const loadPrompt=async(prompt)=>{
       setRecentPrompt(prompt) 
       await onSent(prompt)
