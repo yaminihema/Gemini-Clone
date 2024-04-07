@@ -6,7 +6,7 @@
     background-color: #f0f4f9;
     padding: 25px 15px;
 }
-/* .Sidebar img{
+/* .Sidebar .bottom{
     width: 20px;
 } */
 .Sidebar .menu{
@@ -36,7 +36,7 @@
     margin-bottom: 20px;
 }
 .Sidebar .recent-entry{
-    display: flex;
+    display: inline-flex;
     align-items: start;
     gap: 10px;
     padding: 10px;
@@ -44,6 +44,7 @@
     border-radius: 50px;
     color: #282828;
     cursor: pointer;
+    margin-top: 2px;
 }
 .Sidebar .recent-entry:hover{
     background-color: #e2e6eb;
@@ -60,5 +61,8 @@
 @media (max-width:600px){
     .Sidebar{
         display: none;
+    }
+    .main{
+        width:100%
     }
 }

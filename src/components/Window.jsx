@@ -29,7 +29,7 @@ const Window = () => {
                 <p>How can I help you today? </p>
 
             </div>
-            <div className='cards'>
+            <div className='cards'card>
                 <div className='card'>
                 <p>Suggest beautiful places to see on an upcoming road trip</p>
                 <FaCompass size={25} className="img"  />
